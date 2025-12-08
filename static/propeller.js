@@ -1,0 +1,8 @@
+/* Minimal Propeller loader — replace {{ PROP_ID }} with your site id */
+(function(){
+  var id = "{{ PROP_ID }}";
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://cdn.propellerads.com/loader.js?id=' + encodeURIComponent(id);
+  document.head.appendChild(s);
+})();

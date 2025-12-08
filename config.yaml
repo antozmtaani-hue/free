@@ -1,0 +1,27 @@
+baseURL: "https://antozmtaani-hue.github.io/free/"
+languageCode: "en-us"
+title: "Fresh Start Finance — Bad Credit Help"
+theme: "blowfish"
+enableRobotsTXT: true
+
+params:
+  description: "Practical personal finance and credit recovery guidance for people with imperfect credit."
+  author: "Fresh Start Finance"
+  propeller:
+    site_id: "{{ PROP_ID }}"
+    above_fold_slot: "above-fold-{{ PROP_ID }}"
+    in_content_slot: "in-content-{{ PROP_ID }}"
+    sidebar_slot: "sidebar-{{ PROP_ID }}"
+  lighthouse_target: 95
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - HTML
+
+menu:
+  main: []

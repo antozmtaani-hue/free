@@ -1,0 +1,9 @@
+- name: Home
+  url: /
+  weight: 1
+- name: Guides
+  url: /posts/
+  weight: 2
+- name: About
+  url: /about/
+  weight: 3
