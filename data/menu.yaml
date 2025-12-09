@@ -1,9 +1,12 @@
 - name: Home
   url: /
   weight: 1
-- name: Guides
+- name: Flying Guides
   url: /posts/
   weight: 2
-- name: About
-  url: /about/
+- name: Safety
+  url: /categories/safety/
   weight: 3
+- name: Aircraft Selection
+  url: /tags/aircraft-selection/
+  weight: 4
